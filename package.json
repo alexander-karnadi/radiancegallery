@@ -1,0 +1,30 @@
+{
+  "author": "Cian Clarke <cian@cianclarke.com> (http://www.cianclarke.com)",
+  "name": "node-gallery",
+  "description": "NodeJS Photo Gallery using directory structure & exif info to output a gallery",
+  "version": "0.3.2",
+  "homepage": "http://www.github.com/cianclarke/node-gallery",
+  "repository": {
+    "url": ""
+  },
+  "main": "gallery.js",
+  "engines": {
+    "node": ">=0.6.2"
+  },
+  "dependencies": {
+    "walk": "*",
+    "express": "3.0",
+    "ejs": "*",
+    "exif": "git://github.com/cianclarke/node-exif.git",
+    "imagemagick" : "*",
+    "lwip" : "*"
+  },
+  "scripts": {
+    "test": "node test/tests.js",
+    "start": "app.js"
+  },
+  "devDependencies": {
+    "colors": "*"
+  },
+  "subdomain": "node-gallery"
+}
